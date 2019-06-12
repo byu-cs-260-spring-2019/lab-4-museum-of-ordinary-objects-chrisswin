@@ -30,15 +30,19 @@ body {
 .footer {
   height: 50px;
   padding: 20px 100px 0px 100px;
+  background-color: #5BDEFF;
 }
 
 .footer a {
   color: #000;
+  bottom: 0px;
+  padding-left: 20px;
 }
 
 /* Content */
 .content {
-  padding: 20px 100px 0px 100px;
+  padding: 0px 100px 0px 100px;
+  display: inline-block;
 }
 
 .image h2 {
@@ -129,6 +133,18 @@ html {
 
 .image img {
   width: 100%;
+}
+
+#description {
+  word-wrap: break-word;
+  length: 4em;
+  overflow: scroll;
+}
+
+#editDescription {
+  width: 100%;
+  length: 3em;
+  overflow: scroll;
 }
 
 /* Masonry on large screens */
